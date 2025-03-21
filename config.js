@@ -1,4 +1,4 @@
-/*
+free/*
 _  ______   _____ _____ _____ _   _
 | |/ / ___| |_   _| ____/___ | | | |
 | ' / |  _    | | |  _|| |   | |_| |
@@ -19,7 +19,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "KERM-MD-V1~HBoHULwA#PNiwaROt06l7fW2JgFXLZ0MuoO7EIH4whfGSBOdfjaM",
+SESSION_ID: process.env.SESSION_ID || "KERM-MD-V1~rBIU3TrY#L9rI3pv2shswZrAJNPadutI58uPdlZ_RO00h6bbbVA4",
 AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "true",
 MODE: process.env.MODE || "private",
 AUTO_VOICE: process.env.AUTO_VOICE || "false",
@@ -35,8 +35,8 @@ FAKE_TYPING: process.env.FAKE_TYPING || "false",
 ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true",
 CURRENT_STATUS: process.env.CURRENT_STATUS || "true",
 AUTO_REACT: process.env.AUTO_REACT || "false",
-HEART_REACT: process.env.HEART_REACT || "false",
-OWNER_REACT: process.env.OWNER_REACT || "false",
+HEART_REACT: process.env.HEART_REACT || "true",
+OWNER_REACT: process.env.OWNER_REACT || "true",
 BOT_NAME: process.env.BOT_NAME || "『𝗞𝗘𝗥𝗠 𝗠𝗗 𝗩1』",
 OMDB_API_KEY: process.env.OMDB_API_KEY || "76cb7f39", // omdbapi.com
 };
